@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Responsive navbar</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSideBar()">
+          <a href="#"
+            ><img
+              src="/Images/close_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24(2).svg"
+              alt="close"
+          /></a>
+        </li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">LOGO</a></li>
+        <li class="hideOnMobile"><a href="#">Home</a></li>
+        <li class="hideOnMobile"><a href="#">Gallery</a></li>
+        <li class="hideOnMobile"><a href="#">Product</a></li>
+        <li class="hideOnMobile"><a href="#">Contact</a></li>
+        <li class="menu-btn" onclick="showSideBar()">
+          <a href="#"
+            ><img
+              src="/Images/menu_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24(1).svg"
+              alt="menu"
+          /></a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
